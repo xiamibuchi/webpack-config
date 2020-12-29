@@ -1,4 +1,4 @@
-require('./main.css');
-const show = require("./show.js");
+import("@/main.css");
+import show from "./show.js";
 
 show("Webpack");
